@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(21, 42, 86, 0.9);
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+
+header > h1 {
+    color: #fff;
+    text-align: left;
+    padding-left: 3%;
+}
+
+header > a {
+    list-style: none;
+    display: block;
+    color: white;
+    float: right;
+    margin-right: 25px;
+    font-size: larger;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: black;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 5%;
+    color: rgba(21, 42, 86, 0.9);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5%;
+    
+}
+
+.image-container img {
+    width: 22em;
+    height: auto;
+    display: block;
+}
+
+.main-discripton {
+    text-align: left;
+    padding: 3%;
+    color: rgba(21, 42, 86, 0.9);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+}
+
+.main-discripton > h2 {
+    font-size: 4em;
+}
+
+.main-discripton > p {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 150%;
+}
+
+.banner {
+    width: auto;
+    height: 50%;
+
+}
+
+.second-discripton {
+    text-align: center;
+    padding: 3%;
+    color: rgba(21, 42, 86, 0.9);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 150%;
+}
+
+
+footer {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background-color: #152A56;
+    text-align: center;
+}
+
+footer > a {
+    color:#fff;
+}
+
+
+footer :hover {
+    color: black;
+
+}

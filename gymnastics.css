@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(21, 42, 86, 0.9);
+    padding-top: 2%;
+    padding-bottom: 3%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+ 
+}
+
+
+
+header > h1 {
+    color: #fff;
+    text-align: left;
+    padding-left: 3%;
+}
+
+header > a {
+    list-style: none;
+    display: block;
+    color: white;
+    float: right;
+    margin-right: 25px;
+    font-size: larger;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: black;
+}
+
+
+footer {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: left;
+}
